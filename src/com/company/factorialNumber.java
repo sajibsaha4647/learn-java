@@ -12,12 +12,12 @@ public class factorialNumber {
         anysum = input.nextInt();
 
         for(int i = anysum; i>=1;i--){
-            // fact = fact* i;
-            System.out.println("print val "+i);
+            fact = fact* i;
+            
         }
 
         
-
+        System.out.println("print val "+fact);
 
 
 
