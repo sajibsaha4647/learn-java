@@ -12,9 +12,6 @@ public class PrimeNumber {
 
         number = input.nextInt();
         int count = 0;
-
-        
-
         if(number == 0 || number == 1){
             System.out.println("not prime");
         }else{
